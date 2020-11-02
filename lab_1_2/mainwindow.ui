@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>780</width>
+    <height>550</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,8 +23,14 @@
       <height>22</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="text">
-     <string>обзор</string>
+     <string>ВЫБРАТЬ ФАЙЛ</string>
     </property>
    </widget>
    <widget class="QPushButton" name="recognize_button">
@@ -36,8 +42,14 @@
       <height>22</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="text">
-     <string>распознать</string>
+     <string>РАСПОЗНАТЬ ТЕКСТ</string>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="recognized_text">
@@ -75,8 +87,54 @@
       <height>22</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="text">
-     <string>Перевести</string>
+     <string>ПЕРЕВЕСТИ ТЕКСТ</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="is_watson">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>400</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>IBM Watson</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="is_google">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>440</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Google Cloud</string>
     </property>
    </widget>
   </widget>
@@ -85,7 +143,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>780</width>
      <height>21</height>
     </rect>
    </property>
